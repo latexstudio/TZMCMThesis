@@ -329,12 +329,12 @@
 
 %设置目录格式
 % 节的目录格式
- \titlecontents{section}[0pt]{\vspace{2mm}\bfseries}
+ \titlecontents{section}[0pt]{\bfseries}
  {{\thecontentslabel}.\enspace }{}{\titlerule*[0.5pc]{.}\contentspage}
  % 小节的目录格式
- \titlecontents{subsection}[16pt]{\rmfamily}
+ \titlecontents{subsection}[13pt]{\rmfamily}
  {\thecontentslabel\hskip.5em}{}{\titlerule*[0.5pc]{.}\contentspage}
- \titlecontents{subsubsection}[41pt]{\itshape}
+ \titlecontents{subsubsection}[35pt]{\itshape}
  {{\normalfont\textrm{\thecontentslabel}}\hskip.5em}{}{\titlerule*[0.5pc]{.}\normalfont\textrm{\contentspage}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Define new environment and command
