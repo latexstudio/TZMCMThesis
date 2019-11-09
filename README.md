@@ -6,13 +6,13 @@ TZMCMThesis 是  https://www.latexstudio.net 为第八届“认证杯”数学�
 
 
 <center class="half">
-    <img src="https://github.com/latexstudio/TZMCMThesis/blob/master/figures/paperdemo_1.png" width="300"/>
-    <img src="https://github.com/latexstudio/TZMCMThesis/blob/master/figures/paperdemo_2.png" width="300"/>
+    <img src="https://github.com/latexstudio/TZMCMThesis/blob/master/figures/paperdemo_1.png" width="800"/>
+    <img src="https://github.com/latexstudio/TZMCMThesis/blob/master/figures/paperdemo_2.png" width="800"/>
 </center>
 
 <center class="half">
-    <img src="https://github.com/latexstudio/TZMCMThesis/blob/master/figures/paperdemo_3.png" width="300"/>
-    <img src="https://github.com/latexstudio/TZMCMThesis/blob/master/figures/paperdemo_4.png" width="300"/>
+    <img src="https://github.com/latexstudio/TZMCMThesis/blob/master/figures/paperdemo_3.png" width="800"/>
+    <img src="https://github.com/latexstudio/TZMCMThesis/blob/master/figures/paperdemo_4.png" width="800"/>
 </center>
 
 关注我们公众号
