@@ -58,7 +58,7 @@
 \RequirePackage{titlesec}
 \RequirePackage{titletoc}
 % 设置颜色
-\RequirePackage{xcolor}
+\RequirePackage[x11names,svgnames,dvipsnames]{xcolor}
 % 插入图片
 \RequirePackage{graphicx}
 % 表格
@@ -76,10 +76,11 @@
 \RequirePackage{cprotect}
 % 设置代码环境
 \RequirePackage{listings}
-\RequirePackage{xcolor}
+ 
 \ifxetex
 \RequirePackage{ctex}
 \setmainfont{Times New Roman}
+\setCJKmainfont[AutoFakeBold = {2.15}]{SimSun}
 \setCJKfamilyfont{song}[AutoFakeBold]{SimSun}
 \newcommand*{\song}{\CJKfamily{song}}
 \else
@@ -129,7 +130,7 @@
 \let\tzmcm@endoldtabular\endtabular
 \renewenvironment{tabular}%
 	{\bgroup%
-	\renewcommand{\arraystretch}{1.38}%
+	\renewcommand{\arraystretch}{1.3}%
 	\tzmcm@oldtabular}%
 	{\tzmcm@endoldtabular\egroup}
 % 每行缩进两个汉字
@@ -152,7 +153,7 @@
 \newtheorem{axiom}{\tzmcm@cap@axiom}
 \newtheorem{principle}{\tzmcm@cap@principle}
 \newtheorem{problem}{\tzmcm@cap@problem}
-\newtheorem{example}{\tzmcm@cap@example}
+%\newtheorem{example}{\tzmcm@cap@example}
 \newtheorem{proof}{\tzmcm@cap@proof}
 \newtheorem{solution}{\tzmcm@cap@solution}
 
@@ -187,7 +188,7 @@
 \captionsetup[table]{%
 	format=hang,   % 标题从第二行开始都有缩进, 应该和 justification=raggedright 的效果一样.
 	labelsep=quad, % 分隔符是一个空格
-	font={song,minusfour,bf}, % 表的字体, 宋体小四
+	font={minusfour,bf}, % 表的字体, 宋体小四
 	position=top % position=bottom, 不代表标题放在下面, 标题仍放在你放\caption的位置.
 }
 % 列表环境设置
