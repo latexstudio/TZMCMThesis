@@ -16,4 +16,7 @@ TZMCMThesis 是  https://www.latexstudio.net 为第八届“认证杯”数学�
 </center>
 
 关注我们公众号
+
+<center class="half">
 <img src="https://github.com/latexstudio/CUMCMThesis/blob/master/figures/gongzhonghao2.png" alt="" width="350px">
+</center>
