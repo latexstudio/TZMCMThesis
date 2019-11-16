@@ -287,7 +287,8 @@
 \vskip5em
 \hspace*{2em}\tzmcm@numberpage@string@appraiselog
 \par
-\vskip7\baselineskip%
+\centerline{\tzmcm@tokens@baominghao}%
+\vskip6\baselineskip%
 \hspace*{2em}\tzmcm@numberpage@string@unifiednum
 \vskip6\baselineskip%
 \hrule
