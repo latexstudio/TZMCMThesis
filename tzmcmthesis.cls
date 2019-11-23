@@ -298,7 +298,10 @@
 \null
 }
 \newpage%
-\centerline{\zihao{-2}\bfseries \@title}%
+\bgroup%
+\centering%
+{\zihao{-2}\bfseries \@title}%
+\egroup%
 \vskip1em
 }
 
@@ -346,7 +349,7 @@
     \if@twocolumn
       \begin{center}\vspace{-0.8em}\small\bf Abstract\end{center}\quotation\small
     \else
-    \zihao{4}\noindent \textbf{Abstract:} %
+    \zihao{-4}\noindent \textbf{Abstract:} %
     \fi}
 \def\endabstract{\vspace{0.6em}\par\if@twocolumn\endquotation\else\fi
     \normalsize\rm}
@@ -363,7 +366,7 @@
 	\renewcommand{\tzmcm@tokens@keywords}{#1}
 	\par
 	\vskip1ex
-	{\noindent\zihao{4}\bfseries\tzmcm@cap@keywordsname：}~{\tzmcm@tokens@keywords}
+	{\noindent\zihao{-4}\bfseries\tzmcm@cap@keywordsname：}~{\tzmcm@tokens@keywords}
 	}
 
 % 重定义参考文献环境
