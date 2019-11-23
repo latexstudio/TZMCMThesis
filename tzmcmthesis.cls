@@ -298,10 +298,9 @@
 \null
 }
 \newpage%
-\bgroup%
-\centering%
+\begin{center}%
 {\zihao{-2}\bfseries \@title}%
-\egroup%
+\end{center}%
 \vskip1em
 }
 
